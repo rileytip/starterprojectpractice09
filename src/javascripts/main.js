@@ -29,11 +29,11 @@ function displayMovie(movie) {
                 </div>
             </div>
         </div>
-    `;
+    `
 }
 
 function searchMovies(event) {
-    event.preventDefault();
+    event.preventDefault()
 
     let input = document.querySelector('[type="search"]').value.toUpperCase() || "";
     let count = 0;
